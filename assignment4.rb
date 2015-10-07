@@ -1,11 +1,13 @@
 puts "how many hours do you work?"
 
-hours = gets
+hours = gets.to_i
 
 puts "how much do you make per hour?"
 
-make = gets
+make = gets.to_i
 
 puts "how many weeks did you work?"
 
-weeks = gets
+weeks = gets.to_i
+
+puts "you would make#{hours*make*week}"
